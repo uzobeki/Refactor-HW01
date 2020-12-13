@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-
+/* Background color of the body */
 body {
     background-color: #d9dcd6;
 }
@@ -14,13 +14,13 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* CHanges the font size and color of header  */
 header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-
+/* Displays the "seo" in Horiseon as in-line and changes the color to light grey */
 header h1 .seo {
     display: inline-block;
     font-size: 48px;
@@ -34,25 +34,25 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Removes bullet points from nav links */
 nav ul {
     list-style-type: none;
 }
-
+/* Gives nav links an in-line display */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Changes font color for links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Font for all "p" tags */
 p {
     font-size: 16px;
 }
-
+/* Hero image */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,23 +61,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Sets width, display and margin for the content section */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Float images to the left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Floats images to the right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Adjusts the articles in services section */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -86,11 +86,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Changes height of images in Services section */
 .services img {
     max-height: 200px;
 }
-
+/* Fonts and Margins for h2 tags in Horiseon Services section */
 .sub-head {
     margin-bottom: 20px;
     font-size: 36px;
@@ -106,17 +106,17 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Sets margins for each article in "aside" */
 .benefit-lead, .benefit-brand, .benefit-cost   {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Margins and Alignment for headers in "aside" */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Effects the display of images in the "aside" column */
 .benefits img {
     display: block;
     margin: 10px auto;
